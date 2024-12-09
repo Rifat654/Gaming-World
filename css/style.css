@@ -15,7 +15,7 @@
   width: 100%;
   height: 100vh;
   background-size: cover;
-  background-image: url(/IMAGE/BACK-IMG.JPG);
+  background-image: url(/IMAGE/img.JPG);
   position: relative;
 }
 .navbar {
