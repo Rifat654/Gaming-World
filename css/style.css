@@ -14,7 +14,9 @@
 .head {
   height: 100vh;
   width: 100%;
-  background-image: url(/images/img.jpg);
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  background-image: url(/images/ai-generated-7706228_1920.jpg);
   background-size: cover;
   position: relative;
 }
