@@ -1,5 +1,4 @@
 // ============ Responsive  navbar section start=============//
-
 let icon = document.querySelector(".hambar");
 let ul = document.querySelector("ul");
 
@@ -26,3 +25,4 @@ const typed = new Typed(".auto-type", {
 // ============ Text Type Animation end=============//
 // ============ AOS  Animation =============//
 AOS.init();
+AOS.refresh();
