@@ -11,11 +11,11 @@
   --hover: rgb(228, 120, 52);
 }
 /*------------- Header section start-----------------*/
-.header {
-  width: 100%;
+.head {
   height: 100vh;
+  width: 100%;
+  background-image: url(/IMAGE/img.JPG);
   background-size: cover;
-  background-image: url(./IMAGE/img.JPG);
   position: relative;
 }
 .navbar {
