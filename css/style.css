@@ -14,9 +14,8 @@
 .header {
   width: 100%;
   height: 100vh;
-  /* background-size: cover;
-  background-image: url(/IMAGE/img.JPG); */
-  background-color: rgb(1, 19, 19);
+  background-size: cover;
+  background-image: url(./IMAGE/img.JPG);
   position: relative;
 }
 .navbar {
