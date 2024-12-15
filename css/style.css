@@ -11,6 +11,9 @@
   --hover: rgb(228, 120, 52);
 }
 /*------------- Header section start-----------------*/
+body {
+  background-color: var(--bg);
+}
 .head {
   width: 100%;
   height: 100vh;
@@ -104,8 +107,31 @@ img {
   color: var(--text);
 }
 /*------------- Header section end-----------------*/
+
+/*------------- Main section start-----------------*/
+main {
+  margin-top: 100px;
+}
+.Rating {
+  width: 1024px;
+  height: 450px;
+  margin: 0 auto;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.gun img {
+  width: 400px;
+}
+/*------------- Main section end-----------------*/
+
 /*---------------- media responsive start ------------------*/
 @media screen and (max-width: 940px) {
+  .head {
+    height: 90vh;
+  }
   .container {
     display: block;
     text-align: center;
@@ -123,6 +149,9 @@ img {
 
   .icon i {
     font-size: 19px;
+  }
+  .Rating {
+    width: 100%;
   }
 }
 
@@ -145,6 +174,17 @@ img {
   .img,
   img {
     z-index: 999;
+  }
+
+  .Rating {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gun img {
+    width: 100%;
   }
   .ShowData {
     display: flex;
