@@ -185,6 +185,7 @@ main {
 
   .gun img {
     width: 80%;
+    margin-left: 35px;
   }
   .ShowData {
     display: flex;
@@ -222,9 +223,6 @@ main {
 
   .icon i {
     font-size: 15px;
-  }
-  .gun img {
-    width: 100%;
   }
 }
 
