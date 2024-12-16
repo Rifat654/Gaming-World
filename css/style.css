@@ -129,7 +129,7 @@ main {
 .target {
   width: 250px;
   height: 90px;
-  border-radius: 20px;
+  border-radius: 15px;
   margin-top: 50px;
   margin-left: 20px;
   background-color: aliceblue;
@@ -238,6 +238,11 @@ main {
     height: 100vh;
     z-index: 999;
   }
+  .target {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -261,6 +266,10 @@ main {
 
   .icon i {
     font-size: 15px;
+  }
+  .target {
+    width: 80%;
+    margin: 0;
   }
 }
 
