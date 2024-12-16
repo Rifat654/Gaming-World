@@ -114,16 +114,54 @@ main {
 }
 .Rating {
   width: 1024px;
-  height: 450px;
+  height: 350px;
   margin: 0 auto;
   color: var(--text);
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .gun img {
   width: 400px;
+}
+
+.target {
+  width: 250px;
+  height: 90px;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+  background-color: aliceblue;
+  color: var(--bg);
+  padding: 7px;
+  position: relative;
+}
+
+.target p {
+  font-size: 10px;
+}
+.target .span {
+  color: var(--hover);
+}
+
+.icon-target {
+  position: absolute;
+  right: -10px;
+  top: -17px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid greenyellow;
+  background-color: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-target i {
+  color: var(--text);
+  font-size: 17px;
+  cursor: pointer;
 }
 /*------------- Main section end-----------------*/
 
